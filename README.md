@@ -46,23 +46,23 @@ This plugin is also compatible with the [WooCommerce Extra Checkout Fields for B
 * Activate the plugin.
 
 ### Requirements
-You must have a [PagSeguro](http://pagseguro.uol.com.br/)(Portuguese) account and have [WooCommerce](https://wordpress.org/plugins/woocommerce/), [WPML](http://senl.in/buyWPML) and [WooCommerceMultilingual](https://wordpress.org/plugins/woocommerce-multilingual/) installed.
+You must have a [PagSeguro](http://pagseguro.uol.com.br/) (in Portuguese) account and have [WooCommerce](https://wordpress.org/plugins/woocommerce/), [WPML](http://senl.in/buyWPML) and [WooCommerceMultilingual](https://wordpress.org/plugins/woocommerce-multilingual/) installed.
 
 ### PagSeguro Settings
 
 **Secure Setup**
 
 In PagSeguro just accept receive payments only by **API**.
-You must activate this option in "Integrações" > "[Pagamentos via API](https://pagseguro.uol.com.br/integracao/pagamentos-via-api.jhtml)" (Integration > Payments via API).
+You must activate this option in *Integrações* > *[Pagamentos via API](https://pagseguro.uol.com.br/integracao/pagamentos-via-api.jhtml)* (Integration > Payments via API).
 Only then it is possible to receive payments and to automatically return data.
 
 ### Plugin Settings
 
-With the plugin installed you need to navigate to WooCommerce > Settings > Checkout > PagSeguro.
+With the plugin installed you need to navigate to *WooCommerce > Settings > Checkout > PagSeguro*.
 
 Enable PagSeguro, add your e-mail and the PagSeguro security token. The security token is used to generate the data to make payments and return.
 
-You can get a PagSeguro security token on their website in Integrações > [Token de Segurança](https://pagseguro.uol.com.br/integracao/token-de-seguranca.jhtml) (Integration > Security Token).
+You can get a PagSeguro security token on their website in *Integrações > [Token de Segurança](https://pagseguro.uol.com.br/integracao/token-de-seguranca.jhtml)* (Integration > Security Token).
 
 You can choose from three payment options:
 
@@ -71,7 +71,7 @@ You can choose from three payment options:
 * Transparent: The customer makes the payment directly on your site (using the PagSeguro API), without having to go to PagSeguro site.
 
 Note: To use the transparent checkout you **must** use the [WooCommerce Extra Checkout Fields for Brazil](http://wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/) plugin.
-With WooCommerce Extra Checkout Fields for Brazil installed and enabled you must go to *WooCommerce > Checkout Fields* and set the *Display Type Person* as an *individual only*. This is necessary because it is mandatory to send CPF for PagSeguro, and the PagSeguro accepts only CPF. It is necessary to get approval of PagSeguro to use the Transparent Checkout; learn more in [Receiving payments by PagSeguro](https://pagseguro.uol.com.br/receba-pagamentos.jhtml) (Portuguese).
+With WooCommerce Extra Checkout Fields for Brazil installed and enabled you must go to *WooCommerce > Checkout Fields* and set the *Display Type Person* as an *individual only*. This is necessary because it is mandatory to send CPF for PagSeguro, and the PagSeguro accepts only CPF. It is necessary to get approval of PagSeguro to use the Transparent Checkout; learn more in [Receiving payments by PagSeguro](https://pagseguro.uol.com.br/receba-pagamentos.jhtml) (in Portuguese).
 
 You can also define the behavior of integration using the options:
 
@@ -91,4 +91,4 @@ To fix this you must go to *WooCommerce > Settings > Products > Inventory* and c
 
 ## Support
 
-Please direct any support questions you might have to the [plugin's support forum]((http://wordpress.org/support/plugin/woocommerce-pagseguro). The only thing different in this fork is that we removed the irritating (and wrong) Error message that says that PagSeguro is disabled.
+Please direct any support questions you might have to the [plugin's support forum](http://wordpress.org/support/plugin/woocommerce-pagseguro). The only thing different in this fork is that we removed the irritating (and wrong) Error message that says that PagSeguro is disabled.
